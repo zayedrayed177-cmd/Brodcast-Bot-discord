@@ -23,7 +23,7 @@ const client = new Client({
 
 client.once('ready', () => {
   console.log(`${client.user.username} is Online`);
-  client.user.setActivity('Broadcast Bot By ZombieX', { type: 0 });
+  client.user.setActivity('Broadcast Bot By TFA7A', { type: 0 });
 });
 
 client.on('messageCreate', async (message) => {
